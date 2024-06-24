@@ -1,0 +1,15 @@
+[package]
+name = "esign_rust_api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.52"
+reqwest = "0.12.5"
+serde = {version = "1.0.136", features = ["derive"]}
+serde_json = "1.0.81"
+base64 = "0.22.1"
+md-5= "0.10.6"
+sha2 = "0.10.6"
+hmac = "0.12.1"
+tokio = { version = "1.17.0", features = ["full"] }
